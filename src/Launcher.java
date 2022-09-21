@@ -7,9 +7,9 @@ public class Launcher {
         String input = reader.nextLine();
         while (!"quit".equals(input)) {
 		if (input.equals("fibo")) {
-			int n, a = 0, b = 0, c = 1;
+			int n, a = 0, b = 1, c = 1;
 			Scanner s = new Scanner(System.in);
-			System.out.print("Enter value of n:");
+			System.out.print("Enter value of n: \n");
 			n = s.nextInt();
 			for ( int i = 1; i <= n ; i++) {
 				a = b;
